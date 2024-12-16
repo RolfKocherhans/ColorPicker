@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <meta charset="utf-8" />
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+      <title>WebPage</title>
+      <!-- Rolf Font Inclusion -->
+      <style>
+         /* Sans-Serif Font */
+         @font-face {
+         font-family: Helvetica;
+         src: local(Helvetica Neue), local(Arial), local(Helvetica);
+         font-style: normal;
+         font-weight: normal;
+         }
+         @font-face {
+         font-family: Helvetica;
+         src: local(Helvetica Neue Italic), local(Arial Italic), local(Helvetica Oblique);
+         font-style: italic;
+         font-weight: normal;
+         }
+         @font-face {
+         font-family: Helvetica;
+         src: local(Helvetica Neue Bold), local(Arial Bold), local(Helvetica Bold);
+         font-style: normal;
+         font-weight: bold;
+         }
+         @font-face {
+         font-family: Helvetica;
+         src: local(Helvetica Neue Bold Italic), local(Arial Bold Italic), local(Helvetica Bold Oblique);
+         font-style: italic;
+         font-weight: bold;
+         }
+         @font-face {
+         font-family: Arial;
+         src: local(Arial), local(Helvetica Neue), local(Helvetica);
+         font-style: normal;
+         font-weight: normal;
+         }
+         @font-face {
+         font-family: Arial;
+         src: local(Arial Italic), local(Helvetica Neue Italic), local(Helvetica Oblique);
+         font-style: italic;
+         font-weight: normal;
+         }
+         @font-face {
+         font-family: Arial;
+         src: local(Arial Bold), local(Helvetica Neue Bold), local(Helvetica Bold);
+         font-style: normal;
+         font-weight: bold;
+         }
+         @font-face {
+         font-family: Arial;
+         src: local(Arial Bold Italic), local(Helvetica Neue Bold Italic), local(Helvetica Bold Oblique);
+         font-style: italic;
+         font-weight: bold;
+         }
+         /* Serif Font */
+         @font-face {
+         font-family: Times New Roman;
+         src: local(Times New Roman), local(Times);
+         font-style: normal;
+         font-weight: normal;
+         }
+         @font-face {
+         font-family: Times New Roman;
+         src: local(Times New Roman Italic), local(Times Italic);
+         font-style: italic;
+         font-weight: normal;
+         }
+         @font-face {
+         font-family: Times New Roman;
+         src: local(Times New Roman Bold), local(Times Bold);
+         font-style: normal;
+         font-weight: bold;
+         }
+         @font-face {
+         font-family: Times New Roman;
+         src: local(Times New Roman Bold Italic), local(Times Bold Italic);
+         font-style: italic;
+         font-weight: bold;
+         }
+         /* Monospace Font */
+         @font-face {
+         font-family: Courier New;
+         src: local(Courier New), local(Courier);
+         font-style: normal;
+         font-weight: normal;
+         }
+         @font-face {
+         font-family: Courier New;
+         src: local(Courier New Italic), local(Courier Italic);
+         font-style: italic;
+         font-weight: normal;
+         }
+         @font-face {
+         font-family: Courier New;
+         src: local(Courier New Bold), local(Courier Bold);
+         font-style: normal;
+         font-weight: bold;
+         }
+         @font-face {
+         font-family: Courier New;
+         src: local(Courier New Bold Italic), local(Courier Bold Italic);
+         font-style: italic;
+         font-weight: bold;
+         }
+      </style>
+      <style>body {background-color: #282B33}</style>
+      <style>		
+         body {
+         font-family: arial;
+         margin: 0;
+         padding: none;
+         }
+         .emscripten {
+         padding-right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         }
+         div.loading {
+         margin: auto;
+         width: 50%;
+         }
+         div.emscripten {
+         text-align: center;
+         }
+         div.emscripten_border {
+         border: 0px solid #000;
+         }
+         .half {
+         width: 50%;
+         margin: auto;
+         }
+         canvas.emscripten {
+         border: 0 none;
+         }
+         .spinner {
+         height: 30px;
+         width: 30px;
+         margin-top: 20px;
+         margin-left: auto;
+         margin-right: auto;
+         vertical-align: top;
+         -webkit-animation: rotation 0.8s linear infinite;
+         -moz-animation: rotation 0.8s linear infinite;
+         -o-animation: rotation 0.8s linear infinite;
+         animation: rotation 0.8s linear infinite;
+         border-left: 5px solid #ebebeb;
+         border-right: 5px solid #ebebeb;
+         border-bottom: 5px solid #ebebeb;
+         border-top: 5px solid #787878;
+         border-radius: 100%;
+         background-color: #bdd72e;
+         }
+         @-webkit-keyframes rotation {
+         from {
+         -webkit-transform: rotate(0);
+         }
+         to {
+         -webkit-transform: rotate(360deg);
+         }
+         }
+         @-moz-keyframes rotation {
+         from {
+         -moz-transform: rotate(0);
+         }
+         to {
+         -moz-transform: rotate(360deg);
+         }
+         }
+         @-o-keyframes rotation {
+         from {
+         -o-transform: rotate(0);
+         }
+         to {
+         -o-transform: rotate(360deg);
+         }
+         }
+         @keyframes rotation {
+         from {
+         transform: rotate(0);
+         }
+         to {
+         transform: rotate(360deg);
+         }
+         }
+         .status {
+         vertical-align: top;
+         margin-top: 30px;
+         margin-bottom: 10px;
+         font-weight: 700;
+         color: #787878;
+         }
+         #progress {
+         height: 20px;
+         width: 30px;
+         }
+         #controls {
+         display: inline-block;
+         float: right;
+         vertical-align: top;
+         margin-top: 30px;
+         margin-right: 20px;
+         }
+         #output {
+         width: 100%;
+         height: 200px;
+         margin: 0 auto;
+         margin-top: 10px;
+         display: block;
+         background-color: #000;
+         color: #fff;
+         font-family: "Lucida Console", Monaco, monospace;
+         outline: 0;
+         }
+      </style>
+   </head>
+   <body>
+      <style>.centerCanvas{
+         text-align:center;
+         margin-left:auto;
+         margin-right:auto;
+         }
+      </style>
+      <div class="emscripten_border">
+         <div id="emscripten_main">
+            <div class="centerCanvas">
+               <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()">
+               </canvas>
+            </div>
+         </div>
+      </div>
+      <div id="below-canvas">
+         <div class="emscripten half status" id="status">
+            Downloading...
+         </div>
+      </div>
+      <div class="half">
+         <div class="spinner" id="spinner">
+         </div>
+      </div>
+      <div class="emscripten">
+         <progress hidden id="progress" max="100" value="0"></progress>
+      </div>
+      <script>
+         var statusElement = document.getElementById("status"),
+             progressElement = document.getElementById("progress"),
+             spinnerElement = document.getElementById("spinner"),
+             Module = {
+                 preRun: [],
+                 postRun: [],
+                 print: (function () {
+                     var e = document.getElementById("output");
+                     return (
+                         e && (e.value = ""),
+                         function (t) {
+                             arguments.length > 1 && (t = Array.prototype.slice.call(arguments).join(" ")), console.log(t), e && ((e.value += t + "\n"), (e.scrollTop = e.scrollHeight));
+                         }
+                     );
+                 })(),
+                 printErr: function (e) {
+                     arguments.length > 1 && (e = Array.prototype.slice.call(arguments).join(" ")), console.error(e);
+                 },
+                 canvas: (function () {
+                     var e = document.getElementById("canvas");
+                     return (
+                         e.addEventListener(
+                             "webglcontextlost",
+                             function (e) {
+                                 alert("WebGL context lost. You will need to reload the page."), e.preventDefault();
+                             },
+                             !1
+                         ),
+                         e
+                     );
+                 })(),
+                 setStatus: function (e) {
+                     if ((Module.setStatus.last || (Module.setStatus.last = { time: Date.now(), text: "" }), e !== Module.setStatus.text)) {
+                         var t = e.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/),
+                             n = Date.now();
+                         (t && n - Date.now() < 30) ||
+                             (t
+                                 ? ((e = t[1]), (progressElement.value = 100 * parseInt(t[2])), (progressElement.max = 100 * parseInt(t[4])), (progressElement.hidden = !1), (spinnerElement.hidden = !1))
+                                 : ((progressElement.value = null), (progressElement.max = null), (progressElement.hidden = !0), e || (spinnerElement.style.display = "none")),
+                             (statusElement.innerHTML = e));
+                     }
+                 },
+                 totalDependencies: 0,
+                 monitorRunDependencies: function (e) {
+                     (this.totalDependencies = Math.max(this.totalDependencies, e)), Module.setStatus(e ? "Preparing...   (" + (this.totalDependencies - e) + "/" + this.totalDependencies + ")" : "All downloads complete.  ");
+                 },
+             };
+         Module.setStatus("Downloading...  "),
+             (window.onerror = function (e) {
+                 Module.setStatus("Exception thrown, see JavaScript console"),
+                     (spinnerElement.style.display = "none"),
+                     (Module.setStatus = function (e) {
+                         e && Module.printErr("[post-exception status] " + e);
+                     });
+             });
+      </script>
+      <script async src="../lc_engine/standalone.js"></script>
+   </body>
+</html>
