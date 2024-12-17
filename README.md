@@ -11,7 +11,7 @@ Click here to see the [ColorPicker](https://rolfkocherhans.github.io/ColorPicker
 Enjoy!
 
 ## LiveCode Forum Announcement
-https://forums.livecode.com/viewtopic.php?f=xxxxxxxxxx
+https://forums.livecode.com/viewforum.php?f=120
 
 ## License
 This stack is released under the [MIT License](https://opensource.org/licenses/MIT).
