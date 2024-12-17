@@ -8,7 +8,7 @@ This is a LiveCode stack resembling a macOS-style Color Picker.
 
 ## 🥳 Live URL
 
-The LiveCode WebApplication is hosted on GitHub Pages. Please find the link to it below.            
+This LiveCode WebApplication is hosted on GitHub Pages. Please find the link to it below.            
 <h3><a href="https://rolfkocherhans.github.io/ColorPicker">ColorPicker</a></h3>
 
 <br>
