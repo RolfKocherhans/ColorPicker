@@ -9,9 +9,10 @@ Click here to see the [ColorPicker](https://rolfkocherhans.github.io/ColorPicker
 
 
 Enjoy!
+
 -----
 
-## LiveCode Forum Announcement
+### LiveCode Forum Announcement
 https://forums.livecode.com/viewforum.php?f=120
 
 ## License
