@@ -17,7 +17,6 @@ Enjoy 😊
 
 ---
 <br>
-<br>
 
 ### 🤗 LiveCode Forum Announcement
 https://forums.livecode.com/viewforum.php?f=120
