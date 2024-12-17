@@ -2,8 +2,8 @@
 
 This is a LiveCode stack resembling a macOS-style Color Picker.
 
-![image](https://raw.githubusercontent.com/RolfKocherhans/ColorPicker/refs/heads/main/ColorPicker.png)
 
+<img src="https://raw.githubusercontent.com/RolfKocherhans/ColorPicker/refs/heads/main/ColorPicker.png" alt="Alt Text" style="width:50%; height:auto;">
 
 Click here to see the [ColorPicker](https://rolfkocherhans.github.io/ColorPicker/) in action.
 
@@ -14,4 +14,3 @@ Enjoy!
 
 This stack is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-<img src="https://raw.githubusercontent.com/RolfKocherhans/ColorPicker/refs/heads/main/ColorPicker.png" alt="Alt Text" style="width:50%; height:auto;">
