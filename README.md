@@ -1,6 +1,7 @@
 # LiveCode ColorPicker for the Web
 
-This is a LiveCode stack resembling a macOS-style Color Picker.
+This is a LiveCode stack that mimics the appearance of a macOS-style Color Picker.  
+It is specifically designed for use on the web, where a native color picker is not available.
 
 
 <img src="https://raw.githubusercontent.com/RolfKocherhans/ColorPicker/refs/heads/main/ColorPicker.png" alt="Alt Text" style="width:50%; height:auto;">
