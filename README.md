@@ -13,8 +13,7 @@ This LiveCode WebApplication is hosted on GitHub Pages. Please find the link to 
 
 <br>
 
-Enjoy!
-😊
+Enjoy 😊
 
 ---
 
@@ -22,5 +21,5 @@ Enjoy!
 https://forums.livecode.com/viewforum.php?f=120
 
 ### 😎 License
-This stack is released under the [MIT License](https://opensource.org/licenses/MIT).
+This stack is released under the [MIT License](https://opensource.org/licenses/MIT)
 
