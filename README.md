@@ -14,6 +14,13 @@ This is a LiveCode stack resembling a macOS-style Color Picker.
 Enjoy!
 😊
 
+## 🥳 Live URL
+
+The application is hosted on GitHub Pages. Please find the link to it below.            
+<h3><a href="[https://sql-editor-react.vercel.app/sql-editor](https://rolfkocherhans.github.io/ColorPicker/)">ColorPicker</a></h3>
+
+<br>
+
 ---
 
 ### LiveCode Forum Announcement
