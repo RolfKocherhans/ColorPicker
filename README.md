@@ -9,7 +9,7 @@ It is specifically designed for use on the web, where a native color picker is n
 
 ## 🥳 Live URL
 
-This LiveCode WebApplication is hosted here on GitHub Pages. To try it out, just click on the link below.         
+This LiveCode WebApplication is hosted here on GitHub. To try it out, just click on the link below.         
 <h3><a href="https://rolfkocherhans.github.io/ColorPicker">ColorPicker</a></h3>
 
 <br>
