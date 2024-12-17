@@ -16,6 +16,8 @@ This LiveCode WebApplication is hosted on GitHub Pages. Please find the link to 
 Enjoy 😊
 
 ---
+<br>
+<br>
 
 ### 🤗 LiveCode Forum Announcement
 https://forums.livecode.com/viewforum.php?f=120
