@@ -13,3 +13,5 @@ Enjoy!
 ## License
 
 This stack is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+<img src="https://raw.githubusercontent.com/RolfKocherhans/ColorPicker/refs/heads/main/ColorPicker.png" alt="Alt Text" style="width:50%; height:auto;">
