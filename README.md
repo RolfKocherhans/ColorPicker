@@ -18,9 +18,9 @@ Enjoy!
 
 ---
 
-### LiveCode Forum Announcement
+### 🤗 LiveCode Forum Announcement
 https://forums.livecode.com/viewforum.php?f=120
 
-### License
+### 😎 License
 This stack is released under the [MIT License](https://opensource.org/licenses/MIT).
 
