@@ -7,6 +7,8 @@ This is a LiveCode stack resembling a macOS-style Color Picker.
 
 # -> Click here to see the [ColorPicker](https://rolfkocherhans.github.io/ColorPicker/) in action.
 
+**Click here to see the [ColorPicker](https://rolfkocherhans.github.io/ColorPicker/) in action.**
+
 
 Enjoy!
 
