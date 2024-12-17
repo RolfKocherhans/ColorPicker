@@ -13,7 +13,7 @@ This is a LiveCode stack resembling a macOS-style Color Picker.
 
 Enjoy!
 
------
+---
 
 ### LiveCode Forum Announcement
 https://forums.livecode.com/viewforum.php?f=120
