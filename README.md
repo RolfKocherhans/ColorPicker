@@ -21,10 +21,12 @@ Enjoy 😊
 
 ### 🤗 LiveCode Forum Announcement
 https://forums.livecode.com/viewforum.php?f=120
+
 <br>
 
 ### 😎 My License
 This stack is released under the [MIT License](https://opensource.org/licenses/MIT)
+
 <br>
 
 ### 😎 LiveCode Ltd License
