@@ -22,6 +22,8 @@ Enjoy 😊
 ### 🤗 LiveCode Forum Announcement
 https://forums.livecode.com/viewforum.php?f=120
 
-### 😎 License
+### 😎 My License
 This stack is released under the [MIT License](https://opensource.org/licenses/MIT)
 
+### 😎 LiveCode License
+The files icu-coll.dat, icu-core.dat, icu-iter.dat, standalone-10.0.1-rc-3.js and standalone-10.0.1-rc-3.wasm which are required to run the LiveCode Web app are copyright to LiveCode Ltd and may only be used as part of a distributed LiveCode standalone, or by a licensed commercial LiveCode license holder. No part of the code in these files may be used elsewhere or for any other purpose.
