@@ -20,7 +20,7 @@ Enjoy 😊
 <br>
 
 ### 🤗 LiveCode Forum Announcement
-https://forums.livecode.com/viewforum.php?f=120
+[https://forums.livecode.com/viewforum.php?f=120](https://forums.livecode.com/viewtopic.php?f=120&t=39500)
 
 <br>
 
